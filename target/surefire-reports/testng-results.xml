@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T17:51:44 IST" name="Surefire suite" finished-at="2024-10-14T17:52:01 IST" duration-ms="16841">
+    <groups>
+      <group name="ProductSearch">
+        <method signature="AmazonLoginTest.amazonLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" name="amazonLogin" class="testGroup.AmazonLoginTest"/>
+        <method signature="AmazonLoginTest.displayResults()[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" name="displayResults" class="testGroup.AmazonLoginTest"/>
+      </group> <!-- ProductSearch -->
+    </groups>
+    <test started-at="2024-10-14T17:51:44 IST" name="Surefire test" finished-at="2024-10-14T17:52:01 IST" duration-ms="16841">
+      <class name="testGroup.AmazonLoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" started-at="2024-10-14T17:51:41 IST" name="launchApplication" finished-at="2024-10-14T17:51:44 IST" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="amazonLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" started-at="2024-10-14T17:51:44 IST" name="amazonLogin" data-provider="getData" finished-at="2024-10-14T17:52:00 IST" duration-ms="16501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[acharya.aparna@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Godbless1!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogin -->
+        <test-method signature="displayResults()[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" started-at="2024-10-14T17:52:00 IST" name="displayResults" finished-at="2024-10-14T17:52:01 IST" depends-on-methods="testGroup.AmazonLoginTest.amazonLogin" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testGroup.AmazonLoginTest@34b7ac2f]" started-at="2024-10-14T17:52:01 IST" name="tearDown" finished-at="2024-10-14T17:52:01 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testGroup.AmazonLoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
