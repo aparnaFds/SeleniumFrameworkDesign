@@ -37,7 +37,7 @@ Feature: Searching a product in Amazon India
   Scenario Outline: Test to search Amazon product
     Given I logged in with username <name> and <password>
     When I search for the product <productName>
-    Then I verify the <status> in step
+    Then I verify the <status> in step1
 
     Examples: 
       | name  										| password 	 | productName |status|
